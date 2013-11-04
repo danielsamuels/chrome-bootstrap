@@ -1,4 +1,4 @@
-.cb-grid-lines { 
+.cb-grid-lines {
   height: 100%;
   width: 100%;
   top: 0;
@@ -7,23 +7,18 @@
   pointer-events: none;
 }
 
-.cb-grid-lines .container {
+.cb-grid-lines .row {
   height: 100%;
-  border-left: 2px solid red; border-right: 2px solid red;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
 }
 
-.cb-grid-lines [class*="span"] {
+.cb-grid-lines [class*="small-"] {
   height: 100%;
-  border-right: 1px solid blue;
-  border-left: 1px solid blue;
-  margin-right: -2px;
 }
 
-.cb-grid-lines [class*="span"]:first-child {
-  margin-left: 0px;
-  border-left: none;
-}
-
-.cb-grid-lines [class*="span"]:last-child {
-  border-right: none;
+.cb-grid-lines .inner {
+  height: 100%;
+  border-right: 1px solid green;
+  border-left: 1px solid green;
 }

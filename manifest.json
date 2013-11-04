@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Bootstrap Overlay",
-  "description": "This extension creates an overlay for the bootstrap grid system",
+  "name": "Foundation Overlay",
+  "description": "This extension creates an overlay for the Foundation grid system",
   "version": "1.0",
   "icons": { "16": "icon16.png",
            "48": "icon48.png",
