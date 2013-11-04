@@ -4,20 +4,19 @@ if (document.getElementsByClassName('cb-grid-lines').length){
 }
 
 else {
-    document.body.innerHTML += '<div class="cb-grid-lines"> \
-      <div class="container"> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
-        <div class="span1"></div> \
+    document.body.innerHTML += '<div class="row cb-grid-lines"> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
+        <div class="small-1"></div> \
       </div> \
     </div>';
     
