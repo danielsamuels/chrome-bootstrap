@@ -3,7 +3,6 @@ var toggleIcons = ["img/icon32_off.png", "img/icon32_on.png"];
 var current = false;
 
 var appTrigger = function () {
-  console.log(current, +current, toggleIcons[+current]);
   chrome.browserAction.setIcon({
     path: toggleIcons[+current]
   });
